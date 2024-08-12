@@ -1,0 +1,22 @@
+.Header{
+    display: flex;           /* Make header a flex container */
+    justify-content: space-between; /* Space out child elements */
+    height: 100px;           /* Set the height of the header */
+    padding: 0 20px;
+    background: #1f2937
+}
+
+.Header a{
+  flex: 1 1 auto;                     /* Allow links to grow and shrink */
+  color: White;                     /* Text color */
+  padding: 0 10px;                    /* Optional: Add padding around links */
+  text-decoration: none;              /* Remove underline from links */
+}
+
+.Header img{
+    padding-right: 350px;            /* Optional: Add padding around links */
+    height: 100px;                   /* Set the height of the image */
+    width: auto;                     /* Maintain aspect ratio */
+    
+    flex: 1;
+}
