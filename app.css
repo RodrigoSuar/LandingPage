@@ -1,15 +1,14 @@
 .Header{
-    display: flex;           /* Make header a flex container */
+    display: flex;                  /* Make header a flex container */
     justify-content: space-between; /* Space out child elements */
-    height: 100px;           /* Set the height of the header */
-    padding: 0 20px;
+    height: 150px;                  /* Set the height of the header */
+    
     background: #1f2937
 }
 
 .Header a{
-  flex: 1 1 auto;                     /* Allow links to grow and shrink */
+  flex: 2 1 auto;                     /* Allow links to grow and shrink */
   color: White;                     /* Text color */
-  padding: 0 10px;                    /* Optional: Add padding around links */
   text-decoration: none;              /* Remove underline from links */
 }
 
@@ -18,5 +17,36 @@
     height: 100px;                   /* Set the height of the image */
     width: auto;                     /* Maintain aspect ratio */
     
-    flex: 1;
+    flex: 1 1 auto;
 }
+
+.Top-block{
+    display: flex;                    /* Make header a flex container */
+    justify-content: space-between;   /* Space out child elements */
+    height: 150px;                    /* Set the height of the header */
+    background: #1f2937
+}
+
+.Top-block .text{
+    color: white;
+}
+.Top-block span{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.Top-block .left{
+  height: 20;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around
+  
+}
+.Top-block .right{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
