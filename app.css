@@ -1,52 +1,99 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .Header{
-    display: flex;                  /* Make header a flex container */
-    justify-content: space-between; /* Space out child elements */
-    height: 150px;                  /* Set the height of the header */
-    
-    background: #1f2937
+  display: flex;                  /* Make header a flex container */
+  justify-content: space-between; /* Space out child elements */
+  height: 150px;                  /* Set the height of the header */
+  border: 4px solid brown;
+  background: #1f2937
 }
 
 .Header a{
-  flex: 2 1 auto;                     /* Allow links to grow and shrink */
+  flex: 1 1 0;                     /* Allow links to grow and shrink */
   color: White;                     /* Text color */
   text-decoration: none;              /* Remove underline from links */
+  border: 4px solid brown;
+  height: 150px;  
 }
 
-.Header img{
-    padding-right: 350px;            /* Optional: Add padding around links */
-    height: 100px;                   /* Set the height of the image */
-    width: auto;                     /* Maintain aspect ratio */
-    
-    flex: 1 1 auto;
+.Header div{
+  padding-right: 350px;            /* Optional: Add padding around links */
+  height: 150px;                   /* Set the height of the image */
+  width: auto;                     /* Maintain aspect ratio */
+  border: 4px solid brown;
+  flex: 5 1 0;
 }
 
 .Top-block{
-    display: flex;                    /* Make header a flex container */
-    justify-content: space-between;   /* Space out child elements */
-    height: 150px;                    /* Set the height of the header */
-    background: #1f2937
+  border: 4px solid brown;
+  display: flex;                    /* Make header a flex container */
+  justify-content: space-between;   /* Space out child elements */
+  height: 150px;                    /* Set the height of the header */
+  background: #1f2937
 }
 
 .Top-block .text{
-    color: white;
+  display: flex; 
+  border: 4px solid brown;
+  color: white;
+  flex-direction: column;
 }
 .Top-block span{
-    font-weight: bold;
-    font-size: 24px;
+  border: 4px solid brown;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .Top-block .left{
+  border: 4px solid brown;
   height: 20;
   display: flex;
   flex: 1;
   flex-direction: column;
-  justify-content: space-around
-  
+  justify-content: space-around;
+  align-items: center;
 }
 .Top-block .right{
+  border: 4px solid brown;
   display: flex;
   flex: 1;
   justify-content: center;
+  align-items: center;
+}
+
+.Top-block .left .SignUp{
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.Middle-One-Block{
+  display: flex;
+  border: 4px solid brown;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Middle-One-Block .FlexOne{
+  display: flex;
+  justify-content: space-between; 
+  border: 4px solid brown;
+  gap: 35px;
+}
+
+.Middle-One-Block .FlexOne div{
+  
+  justify-content: space-between;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
