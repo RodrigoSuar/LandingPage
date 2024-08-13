@@ -1,5 +1,6 @@
 html, body {
   height: 100%; 
+  width: 100%;
   margin: 0;
   padding: 0;
   display: flex;
@@ -31,7 +32,7 @@ body{
 }
 
 .Header div{
-  flex: 4;
+  flex: 5;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -136,5 +137,6 @@ body{
 }
 
 .Footer{
+  background-color: #1f2937;
   flex:1;
 }
